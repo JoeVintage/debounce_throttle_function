@@ -22,11 +22,9 @@ Dart comes with decent and powerful Streams API out-of-the-box,but they are clum
 
 Now you can use it easily and gracefully in just one line of code!
 
-Please click the thumb up button, Let's Make Flutter Easy Again!
-
 ## Getting started
 
-Easy To Use,Graceful To Use! 
+🌹🌹Please click the 👍thumb up button, Let's Make Flutter Easy Again!
 
 ## Features
 
@@ -42,10 +40,7 @@ For Example: throttle user button click down to 1000milliseconds(1 click per sec
 ```dart
                   onPressed: () {
 CommonStreamUtils.throttleFunction(() {
-InviteDialog().showInviteBottomSheet(
-context,
-memberMainPageLogic.memberShipLevel.value,
-inviteDialogLogic);
+   InviteDialog.show()
 },milliseconds: 1000);
 },
 ```
@@ -55,10 +50,7 @@ For Example: debounce user button click down to 1000milliseconds(1 click per sec
 ```dart
                   onPressed: () {
 CommonStreamUtils.debounceFunction(() {
-InviteDialog().showInviteBottomSheet(
-context,
-memberMainPageLogic.memberShipLevel.value,
-inviteDialogLogic);
+   InviteDialog.show()
 },milliseconds: 1000);
 },
 ```
